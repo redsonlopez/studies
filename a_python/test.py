@@ -1,7 +1,4 @@
-i=0
-while i < 10:
-    for j in i:
-        if j % 2 == 0:
-            print(j)
-    i= i +1
+# Busca binaria
+
+lista= [2, 17, 6, 5, 24, 12, 121, 157, 23]
 

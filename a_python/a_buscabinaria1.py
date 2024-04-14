@@ -17,3 +17,4 @@ print(lista)
 print('\n',buscabinaria(lista=lista, valor=10))
 print('\n', buscabinaria(lista=lista, valor=200))
 
+

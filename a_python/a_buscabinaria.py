@@ -19,3 +19,4 @@ def a_buscabinaria(lista, valor):
 
 print(a_buscabinaria(lista, 11))
 
+

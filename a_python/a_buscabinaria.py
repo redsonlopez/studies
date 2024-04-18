@@ -17,6 +17,6 @@ def a_buscabinaria(lista, valor):
 			return True
 	return False
 
-print(a_buscabinaria(lista, 11))
+print(a_buscabinaria(lista, 9))
 
 

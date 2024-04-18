@@ -17,3 +17,4 @@ for i in lista:
 		outro= i
 print(f"Pares= {pares}\nImpares= {impares}\nOutro Valor= {outro}")
 
+

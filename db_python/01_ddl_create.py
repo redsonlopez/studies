@@ -1,9 +1,10 @@
+# Data Definition Language; Data Manipulation Language; Data Control Language
+
 import sqlite3
 
 conn= sqlite3.connect('redDB.db')
 print(type(conn))
 
-# Data Definition Language; Data Manipulation Language; Data Control Language
 ddl_create= """
 CREATE TABLE IF NOT EXISTS fornecedor(
     id_fornecedor INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,

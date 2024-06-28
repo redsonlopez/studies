@@ -6,7 +6,7 @@ ddl_create= """
 CREATE TABLE IF NOT EXISTS mapa(
     idlocal INTEGER NOT NULL PRIMARY KEY,
     nome TEXT NOT NULL,
-    tipo TEXT NOT NULL,
+    area TEXT NOT NULL,
     reino TEXT,
     lord INTEGER
 );

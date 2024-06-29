@@ -1,9 +1,4 @@
-import sqlite3
-
-conn= sqlite3.connect('data_base/data_base.db')
-cursor= conn.cursor()
-
-dados= [
+item= [
         ('mapa', None, None),
         ('flauta', None, 1),
         ('escudo da meia noite', None, None),
@@ -47,13 +42,4 @@ dados= [
         ('lupa', None, 43),
         ('espada curta', None, None),
 ]
-
-cursor.executemany("""
-INSERT INTO item (item, descricao, proprietario)
-VALUES (?, ?, ?)""", dados)
-
-conn.commit()
-
-cursor.close()
-conn.close()
 

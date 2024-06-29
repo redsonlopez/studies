@@ -1,9 +1,9 @@
 import sqlite3
 
-conn= sqlite3.connect('data_base/data_base.db')
+conn= sqlite3.connect('redland.db')
 cursor= conn.cursor()
 
-cursor.execute("SELECT nome_local, lord_local, reino_local FROM worldmap WHERE nome_local LIKE '%Castle%'")
+cursor.execute("SELECT * FROM personagem")
 resultado= cursor.fetchall()
 
 for linha in resultado:

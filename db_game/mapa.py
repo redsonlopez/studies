@@ -1,9 +1,4 @@
-import sqlite3
-
-conn= sqlite3.connect('data_base/data_base.db')
-cursor= conn.cursor()
-
-dados= [
+mapa= [
         (0, 'Igros Castle', 'cinza', 'Gallionne', 0),
         (1, 'Mandalia Plains', 'verde', 'Gallionne', None),
         (2, 'Thieves Fort', 'laranja', 'Gallionne', 2),
@@ -48,13 +43,4 @@ dados= [
         (41, 'Deep Dungeon', 'verde', None, 41),
         (42, 'Murond Death City', 'laranja', None, 42)
 ]
-
-cursor.executemany("""
-INSERT INTO mapa (idlocal, nome, area, reino, lord)
-VALUES (?, ?, ?, ?, ?)""", dados)
-
-conn.commit()
-
-cursor.close()
-conn.close()
 

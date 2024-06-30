@@ -20,11 +20,11 @@ CREATE TABLE IF NOT EXISTS personagem(
     nome TEXT NOT NULL,
     idhabitacao INTEGER,
     titulo TEXT,
-    nivel VARCHAR(2),
+    nivel VARCHAR(1),
     ouro INTEGER,
     status TEXT,
     FOREIGN KEY (idhabitacao) REFERENCES mapa(idlocal),
-    CHECK (nivel IN ('ss', 's', 'a', 'b', 'c', 'd', 'e') OR nivel IS NULL)
+    CHECK (nivel IN ('s', 'a', 'b', 'c', 'd', 'e') OR nivel IS NULL)
 );
 """)
 

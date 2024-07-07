@@ -16,7 +16,7 @@ FROM
 JOIN 
     mapa ON personagem.idhabitacao = mapa.idlocal
 WHERE
-    Reino LIKE '%Gallionne%'
+    Habitacao LIKE '%dorter trade city%' OR Habitacao LIKE '%orbonne monastery%'
 ORDER
     BY Habitacao;
 """)

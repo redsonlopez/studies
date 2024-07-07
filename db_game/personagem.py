@@ -2,9 +2,9 @@ personagem= [
         (0, 'elo', 0, 'semeador da peversao', 's', 9500, 'normal'),
         (1, 'satiro', 0, 'bardo', 'b', 150, 'normal'),
         (2, 'cyclops', 2, 'gigante desespero', 'b', 350, 'normal'),
-        (3, 'ungoliant', 3, 'monarca da gula', 'a', 950, 'normal'),
+        (3, 'vicio', 3, 'semeador do vicio', 'b', 3500, 'normal'),
         (4, 'freddy', 3, 'semeador do terror', 'b', 700, 'normal'),
-        (5, 'vicio', 5, 'semeador do vicio', 'b', 3500, 'normal'),
+        (5, 'ungoliant', 5, 'monarca da gula', 'a', 950, 'normal'),
         (6, 'naga', 5, 'semeador da distracao', 'b', 500, 'normal'),
         (7, 'evil santa', 7, 'guerreiro', 'b', 650, 'normal'),
         (8, 'recaida', 7, 'necromante', 'b', 400, 'normal'),
@@ -107,6 +107,6 @@ personagem= [
         (105, 'beverly crusher', 38, 'medico', 'e', 600, 'normal'),
         (106, 'helen cho', 24, 'medico', 'e', 600, 'controlado'),
         (107, 'miia', 33, 'medico', 'd', 250, 'controlado'),
-        (106, 'lobo da step', 0, 'guerreiro', 'a', 550, 'controlado')
+        (108, 'lobo da step', 0, 'guerreiro', 'a', 550, 'controlado')
 ]
 

@@ -1,5 +1,5 @@
 personagem= [
-        (0, 'elo', 0, 'semeador da peversao', 's', 9500, 'normal'),
+        (0, 'ele', 0, 'semeador da peversao', 's', 9500, 'normal'),
         (1, 'satiro', 0, 'bardo', 'b', 150, 'normal'),
         (2, 'cyclops', 2, 'gigante desespero', 'b', 350, 'normal'),
         (3, 'vicio', 3, 'semeador do vicio', 'b', 3500, 'normal'),
@@ -43,7 +43,7 @@ personagem= [
         (41, 'lashna', 40, 'kraken do incompleto', 'a', 250, 'normal'),
         (42, 'djinn', 42, 'djinn', 'b', 300, 'normal'),
         (43, 'ainz ooal gown', 0, 'overlord', 's', 5000, 'morto'),
-        (44, 'kronos', 9, 'overlord', 's', 3000, 'morto'),
+        (44, 'kronos', 9, 'overlord', 's', 3000, 'petrificado'),
         (45, 'slan', 24, 'overlord', 's', 900, 'morto'),
         (46, 'buddha', 28, 'overlord', 's', 0, 'morto'),
         (47, 'mukuro', 33, 'overlord', 's', 2000, 'controlado'),
@@ -107,6 +107,6 @@ personagem= [
         (105, 'beverly crusher', 38, 'medico', 'e', 600, 'normal'),
         (106, 'helen cho', 24, 'medico', 'e', 600, 'controlado'),
         (107, 'miia', 33, 'medico', 'd', 250, 'controlado'),
-        (108, 'lobo da step', 0, 'guerreiro', 'a', 550, 'controlado')
+        (108, 'lobo da estepe', 0, 'guerreiro', 'a', 550, 'controlado')
 ]
 

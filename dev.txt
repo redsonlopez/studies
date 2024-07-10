@@ -14,6 +14,13 @@ Big Oh, mais eficiente= O(1) < O(log N) < O(N) < O(N^2) < O(N^3) < O(2^N)= Menos
 
 19/03 -> Criar algoritimo para Sudoku.
 
+--->
+Dependências opcionais para neovim
+    python-pynvim: for Python plugin support (see :help python)
+    xclip: for clipboard support on X11 (or xsel) (see :help clipboard)
+    xsel: for clipboard support on X11 (or xclip) (see :help clipboard)
+    wl-clipboard: for clipboard support on wayland (see :help clipboard)
+
 ---> Akita ->
 "REGEX"(Regular Expression), JQuery, Bootstrap.
 
@@ -21,7 +28,7 @@ Big Oh, mais eficiente= O(1) < O(log N) < O(N) < O(N^2) < O(N^3) < O(2^N)= Menos
 • C/C++ e Fortran
 ---> IA ->
 • Prolog, Lisp
----> Academia ->
+---> Faculdade ->
 • Linguagem de Programação:
 -Av1 - Linguagem de Programação
  Período: 05/02 - 20/05

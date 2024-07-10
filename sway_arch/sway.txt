@@ -1,0 +1,57 @@
+https://wiki.archlinux.org/title/Sway#Configuration
+vim ~/.config/foot/foot.ini
+vim ~/.config/sway/config
+vim /usr/share/doc/i3status-rust/examples/config.toml
+-------> Config ->
+$ mkdir ~/Downloads
+$ sudo pacman -S i3status-rust
+$ sudo pacman -S ttf-font-awesome
+$ mkdir ~/.config/foot
+$ mkdir ~/.config/sway
+$ mkdir -p ~/.config/nvim
+$ cd ~/Downloads
+$ cp ~/Downloads/bashrc ~/.bashrc
+$ cp ~/Downloads/foot.ini ~/.config/foot
+$ cp ~/Downloads/config ~/.config/sway
+$ cp ~/Downloads/init.vim ~/.config/nvim
+$ sudo cp ~/Downloads/config.toml /usr/share/doc/i3status-rust/examples
+$ sudo cp ~/Downloads/wallpaper.jpg /usr/share/backgrounds
+-------> Neovim, Tree & Git ->
+$ sudo pacman -S neovim tree git
+$ ssh-keygen -t rsa -b 4096 -C "redsonlopez@gmail.com"
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_rsa
+$ cat ~/.ssh/id_rsa.pub
+$ git clone git@github.com:redsonlopez/studies.git
+-------> Python ->
+$ sudo pacman -S python3
+$ mkdir ~/Projects
+$ cd ~/Projects
+$ python3 -m venv ~/Projects/lab
+$ source ~/Projects/lab/bin/activate
+$ python3 -m pip install --upgrade pip
+$ pip install jupyter
+$ deactivate
+-------> Update & Root ->
+$ sudo pacman -Syu
+$ su -
+-------> WIFI ->
+$ iwctl
+$ device list
+$ device <wlan> set-property Powered on
+$ station <wlan> scan
+$ station <wlan> show
+$ station <wlan> get-networks
+$ station <wlan> connect <wifi>
+-------> Path's ->
+$ sudo nvim /etc/resolv.conf #DNS
+$ sudo nvim /etc/hosts
+$ sudo nvim /etc/environment #Falkon
+$ sudo nvim /home/red/.config/falkon/profiles/default/settings.ini
+---> ScreenShare ->
+$ sudo pacman -S xdg-desktop-portal
+$ sudo pacman -S xdg-desktop-portal-wlr
+$ sudo pacman -S pipewire-media-session
+---> falkon ->
+você precisa conceder as permissões nas configurações do navegador para compartilhar a tela.
+

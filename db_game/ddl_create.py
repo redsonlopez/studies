@@ -6,31 +6,31 @@ cursor= conn.cursor()
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS mapa(
     idlocal INTEGER NOT NULL PRIMARY KEY,
-    nome TEXT NOT NULL,
-    area TEXT NOT NULL,
-    reino TEXT,
+    nome VARCHAR(25) NOT NULL,
+    area VARCHAR(7) NOT NULL,
+    reino VARCHAR(15),
     idlord INTEGER,
-    FOREIGN KEY (idlord) REFERENCES personagem(idpersonagem)
+    FOREIGN KEY (idlord) REFERENCES personagem(idpersonagem),
+    CHECK (area IN ('cinza', 'verde', 'laranja'))
 );
 """)
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS personagem(
     idpersonagem INTEGER NOT NULL PRIMARY KEY,
-    nome TEXT NOT NULL,
+    nome VARCHAR(50) NOT NULL,
     idhabitacao INTEGER,
-    titulo TEXT,
-    nivel VARCHAR(1),
+    titulo VARCHAR(25),
+    nivel INTEGER,
     ouro INTEGER,
-    status TEXT,
-    FOREIGN KEY (idhabitacao) REFERENCES mapa(idlocal),
-    CHECK (nivel IN ('s', 'a', 'b', 'c', 'd', 'e') OR nivel IS NULL)
+    status VARCHAR(25),
+    FOREIGN KEY (idhabitacao) REFERENCES mapa(idlocal)
 );
 """)
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS item(
-    item TEXT NOT NULL,
+    item VARCHAR(50) NOT NULL,
     descricao TEXT,
     idproprietario INTEGER,
     FOREIGN KEY (idproprietario) REFERENCES personagem(idpersonagem)

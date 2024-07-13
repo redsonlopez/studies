@@ -5,20 +5,22 @@ cursor= conn.cursor()
 
 cursor.execute("""
 SELECT 
-    personagem.nome AS Nome, 
-    personagem.titulo AS Titulo, 
-    personagem.nivel AS Nivel, 
-    personagem.status AS Status, 
-    mapa.nome AS Habitacao, 
-    mapa.reino AS Reino
+    pe.nome AS Nome, 
+    pe.titulo AS Titulo, 
+    pe.nivel AS Nivel, 
+    pe.status AS Status, 
+    ma.nome AS Habitacao, 
+    ma.reino AS Reino
 FROM 
-    personagem
+    personagem pe
 JOIN 
-    mapa ON personagem.idhabitacao = mapa.idlocal
+    mapa ma
+ON
+    pe.idhabitacao = ma.idlocal
 WHERE
-    Habitacao LIKE '%dorter trade city%' OR Habitacao LIKE '%orbonne monastery%'
-ORDER
-    BY Habitacao;
+    ma.area LIKE '%%'
+ORDER BY
+    Habitacao;
 """)
 
 colunas = [descricao[0] for descricao in cursor.description]

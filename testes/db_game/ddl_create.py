@@ -24,7 +24,8 @@ CREATE TABLE IF NOT EXISTS personagem(
     nivel INTEGER,
     ouro INTEGER,
     status VARCHAR(25),
-    FOREIGN KEY (idhabitacao) REFERENCES mapa(idlocal)
+    FOREIGN KEY (idhabitacao) REFERENCES mapa(idlocal),
+    CHECK (status IN ('normal', 'enfraquecido', 'controlado', 'imobilizado', 'morto') OR status IS NULL)
 );
 """)
 

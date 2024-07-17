@@ -35,7 +35,6 @@ def main():
     # adicionando membros da família
     familia.empilha("Miguel Silva de Castro")
     familia.empilha("José de Castro")
-    familia.empilha("Hedson Lopes de Farias")
     familia.empilha("Eugênio de Castro")
     familia.empilha("Pedro Paulo de Castro")
     # sabemos que são primos, mas queremos testar se o sistema os encontra

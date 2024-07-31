@@ -129,6 +129,20 @@ personagem= [
         (127, "krichevskoy", None, None, 2430, 6500, "normal"),
         (128, "desconhecido", None, None, None, 900, "normal"),
         (129, "dra. cha", None, "medico", 10, 50, "normal"),
-        (130, "desconhecido", None, None, None, 100, "normal")
+        (130, "desconhecido", None, None, None, 100, "normal"),
+        (131, "barbie", None, "cozinheiro", 10, 50, "normal"),
+        (132, "megumin", None, "mago", 90, 50, "normal"),
+        (133, "Bayonetta", None, "mago", 270, 50, "normal"),
+        (134, "desconhecido", None, None, None, 100, "normal"),
+        (135, "raziel", None, "ladino", 270, 100, "normal"),
+        (136, "diana", None, "guerreiro", 270, 50, "normal"),
+        (137, "rory mercury", None, "guerreiro", 270, 50, "normal"),
+        (138, "desconhecido", None, None, None, 100, "normal"),
+        (139, "kimberly hart", None, "guerreiro", 90, 50, None),
+        (140, "desconhecido", None, None, None, 100, "normal"),
+        (141, "xena", None, "guerreiro", 90, 50, "normal"),
+        (142, "yautja", None, "guerreiro", 90, 50, "normal"),
+        (143, "jyaku amano", None, "guerreiro", 810, 50, "normal"),
+        (144, "tenkai nankobo", None, "guerreiro", 270, 100, "normal")
 ]
 

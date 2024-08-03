@@ -1,5 +1,5 @@
 personagem= [
-        (0, "ele", 0, "djinn", 2430, 9500, "normal"),
+        (0, "depravacao", 0, "djinn", 2430, 9500, "normal"),
         (1, "satiro", 0, "bardo", 270, 150, "normal"),
         (2, "stheno", 2, None, 810, 500, "normal"),
         (3, "ungoliant", 3, "djinn", 810, 350, "normal"),
